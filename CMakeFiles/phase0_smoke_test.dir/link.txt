@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase0_smoke_test.dir/tests/phase0_smoke_test.cpp.o  -o phase0_smoke_test  libmy_al_ilqr_core.a 

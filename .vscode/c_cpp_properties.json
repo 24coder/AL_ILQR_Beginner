@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/al-ilqr-starter/include/**",
+                "${workspaceFolder}/al-ilqr-starter/build/_deps/imgui-src",
+                "${workspaceFolder}/al-ilqr-starter/build/_deps/imgui-src/backends",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "${workspaceFolder}/al-ilqr-starter/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase2_linear_lqr_demo.dir/examples/phase2_linear_lqr_demo.cpp.o  -o phase2_linear_lqr_demo  libmy_al_ilqr_core.a 

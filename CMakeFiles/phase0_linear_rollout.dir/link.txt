@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase0_linear_rollout.dir/examples/phase0_linear_rollout.cpp.o  -o phase0_linear_rollout  libmy_al_ilqr_core.a 

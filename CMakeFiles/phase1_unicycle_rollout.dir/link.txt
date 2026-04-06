@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase1_unicycle_rollout.dir/examples/phase1_unicycle_rollout.cpp.o  -o phase1_unicycle_rollout  libmy_al_ilqr_core.a 

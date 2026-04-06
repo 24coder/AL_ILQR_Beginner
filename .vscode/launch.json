@@ -1,0 +1,75 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug: phase8_autodrive_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)"
+        },
+        {
+            "name": "Debug: phase8_autodrive_test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)"
+        },
+        {
+            "name": "Debug: phase7_al_ilqr_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase7_al_ilqr_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)"
+        },
+        {
+            "name": "Debug: phase0_linear_rollout",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase0_linear_rollout",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)"
+        },
+        {
+            "name": "Debug: phase3_unicycle_ilqr_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase3_unicycle_ilqr_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)"
+        }
+    ]
+}

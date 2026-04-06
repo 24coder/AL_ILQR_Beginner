@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase8_autodrive_demo.dir/examples/phase8_autodrive_demo.cpp.o  -o phase8_autodrive_demo  libmy_al_ilqr_core.a 

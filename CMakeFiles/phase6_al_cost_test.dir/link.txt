@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase6_al_cost_test.dir/tests/phase6_al_cost_test.cpp.o  -o phase6_al_cost_test  libmy_al_ilqr_core.a 

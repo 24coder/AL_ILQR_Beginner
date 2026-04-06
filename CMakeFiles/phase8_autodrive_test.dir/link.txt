@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase8_autodrive_test.dir/tests/phase8_autodrive_test.cpp.o  -o phase8_autodrive_test  libmy_al_ilqr_core.a 
