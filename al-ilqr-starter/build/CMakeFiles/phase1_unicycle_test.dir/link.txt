@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase1_unicycle_test.dir/tests/phase1_unicycle_test.cpp.o  -o phase1_unicycle_test  libmy_al_ilqr_core.a 

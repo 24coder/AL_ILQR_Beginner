@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug phase7_al_ilqr_demo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase7_al_ilqr_demo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase7_al_ilqr_demo debug"
+    }
+  ]
+}

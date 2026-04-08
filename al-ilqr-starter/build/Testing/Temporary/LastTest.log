@@ -1,0 +1,213 @@
+Start testing: Mar 23 17:18 CST
+----------------------------------------------------------
+1/14 Testing: phase0_smoke_test
+1/14 Test: phase0_smoke_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase0_smoke_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase0_smoke_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase0_smoke_test" end time: Mar 23 17:18 CST
+"phase0_smoke_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/14 Testing: phase1_unicycle_test
+2/14 Test: phase1_unicycle_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase1_unicycle_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase1_unicycle_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase1_unicycle_test" end time: Mar 23 17:18 CST
+"phase1_unicycle_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/14 Testing: phase1_bicycle_test
+3/14 Test: phase1_bicycle_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase1_bicycle_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase1_bicycle_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase1_bicycle_test" end time: Mar 23 17:18 CST
+"phase1_bicycle_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/14 Testing: phase2_lqr_test
+4/14 Test: phase2_lqr_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase2_lqr_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase2_lqr_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase2_lqr_test" end time: Mar 23 17:18 CST
+"phase2_lqr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/14 Testing: phase3_ilqr_test
+5/14 Test: phase3_ilqr_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase3_ilqr_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase3_ilqr_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"phase3_ilqr_test" end time: Mar 23 17:18 CST
+"phase3_ilqr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/14 Testing: phase4_ilqr_stability_test
+6/14 Test: phase4_ilqr_stability_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase4_ilqr_stability_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase4_ilqr_stability_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase4_ilqr_stability_test" end time: Mar 23 17:18 CST
+"phase4_ilqr_stability_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/14 Testing: phase5_constraints_test
+7/14 Test: phase5_constraints_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase5_constraints_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase5_constraints_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase5_constraints_test" end time: Mar 23 17:18 CST
+"phase5_constraints_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/14 Testing: phase6_al_cost_test
+8/14 Test: phase6_al_cost_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase6_al_cost_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase6_al_cost_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"phase6_al_cost_test" end time: Mar 23 17:18 CST
+"phase6_al_cost_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/14 Testing: phase7_al_ilqr_test
+9/14 Test: phase7_al_ilqr_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase7_al_ilqr_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase7_al_ilqr_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"phase7_al_ilqr_test" end time: Mar 23 17:18 CST
+"phase7_al_ilqr_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/14 Testing: phase8_autodrive_test
+10/14 Test: phase8_autodrive_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase8_autodrive_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase8_autodrive_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"phase8_autodrive_test" end time: Mar 23 17:18 CST
+"phase8_autodrive_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/14 Testing: phase9_visualization_export_test
+11/14 Test: phase9_visualization_export_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase9_visualization_export_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase9_visualization_export_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"phase9_visualization_export_test" end time: Mar 23 17:18 CST
+"phase9_visualization_export_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/14 Testing: phase10_numerical_enhancement_test
+12/14 Test: phase10_numerical_enhancement_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase10_numerical_enhancement_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase10_numerical_enhancement_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"phase10_numerical_enhancement_test" end time: Mar 23 17:18 CST
+"phase10_numerical_enhancement_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: phase11_dynamic_obstacle_test
+13/14 Test: phase11_dynamic_obstacle_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase11_dynamic_obstacle_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase11_dynamic_obstacle_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"phase11_dynamic_obstacle_test" end time: Mar 23 17:18 CST
+"phase11_dynamic_obstacle_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: phase12_dynamic_obstacle_speed_sweep_test
+14/14 Test: phase12_dynamic_obstacle_speed_sweep_test
+Command: "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase12_dynamic_obstacle_speed_sweep_test"
+Directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+"phase12_dynamic_obstacle_speed_sweep_test" start time: Mar 23 17:18 CST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"phase12_dynamic_obstacle_speed_sweep_test" end time: Mar 23 17:18 CST
+"phase12_dynamic_obstacle_speed_sweep_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 23 17:18 CST

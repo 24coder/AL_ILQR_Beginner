@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/imgui_frontend.dir/apps/rerun_imgui_frontend.cpp.o  -o imgui_frontend  libmy_al_ilqr_core.a libimgui.a _deps/glfw-build/src/libglfw3.a -lpthread /usr/lib/x86_64-linux-gnu/librt.so -lm -ldl /usr/lib/x86_64-linux-gnu/libGL.so 

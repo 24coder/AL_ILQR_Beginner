@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/phase2_lqr_test.dir/tests/phase2_lqr_test.cpp.o  -o phase2_lqr_test  libmy_al_ilqr_core.a 

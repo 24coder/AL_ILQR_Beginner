@@ -1,0 +1,427 @@
+[
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase11_dynamic_obstacle_test.dir/tests/phase11_dynamic_obstacle_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase11_dynamic_obstacle_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase11_dynamic_obstacle_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase8_autodrive_demo.dir/examples/phase8_autodrive_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase8_autodrive_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase8_autodrive_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/imgui_frontend.dir/apps/rerun_imgui_frontend.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/apps/rerun_imgui_frontend.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/apps/rerun_imgui_frontend.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase5_constraints_test.dir/tests/phase5_constraints_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase5_constraints_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase5_constraints_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase7_al_ilqr_demo.dir/examples/phase7_al_ilqr_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase7_al_ilqr_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase7_al_ilqr_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase0_smoke_test.dir/tests/phase0_smoke_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase0_smoke_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase0_smoke_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase4_unicycle_ilqr_stable_demo.dir/examples/phase4_unicycle_ilqr_stable_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase4_unicycle_ilqr_stable_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase4_unicycle_ilqr_stable_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase2_linear_lqr_demo.dir/examples/phase2_linear_lqr_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase2_linear_lqr_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase2_linear_lqr_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase10_numerical_enhancement_demo.dir/examples/phase10_numerical_enhancement_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase10_numerical_enhancement_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase10_numerical_enhancement_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase3_unicycle_ilqr_demo.dir/examples/phase3_unicycle_ilqr_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase3_unicycle_ilqr_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase3_unicycle_ilqr_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase1_bicycle_rollout.dir/examples/phase1_bicycle_rollout.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase1_bicycle_rollout.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase1_bicycle_rollout.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/core/trajectory.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/core/trajectory.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/core/trajectory.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/straight_reference_line.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/straight_reference_line.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/straight_reference_line.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/speed_limit_constraint.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/speed_limit_constraint.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/speed_limit_constraint.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/vehicle_bicycle_config.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/vehicle_bicycle_config.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/vehicle_bicycle_config.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/lane_tracking_cost.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/lane_tracking_cost.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/lane_tracking_cost.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/circular_obstacle_constraint.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/circular_obstacle_constraint.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/circular_obstacle_constraint.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/autodrive/demo_scenario.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/demo_scenario.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/demo_scenario.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/dynamics/linear_point_mass_model.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/linear_point_mass_model.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/linear_point_mass_model.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/dynamics/unicycle_model.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/unicycle_model.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/unicycle_model.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/dynamics/kinematic_bicycle_model.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/kinematic_bicycle_model.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/dynamics/kinematic_bicycle_model.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/cost/quadratic_cost.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/cost/quadratic_cost.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/cost/quadratic_cost.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/constraints/constraint_function.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/constraint_function.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/constraint_function.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/constraints/control_box_constraint.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/control_box_constraint.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/control_box_constraint.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/constraints/terminal_goal_constraint.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/terminal_goal_constraint.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/constraints/terminal_goal_constraint.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/al/al_ilqr_solver.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/al_ilqr_solver.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/al_ilqr_solver.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/al/augmented_lagrangian_cost.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/augmented_lagrangian_cost.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/augmented_lagrangian_cost.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/problems/optimal_control_problem.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/problems/optimal_control_problem.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/problems/optimal_control_problem.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/problems/constrained_optimal_control_problem.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/problems/constrained_optimal_control_problem.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/problems/constrained_optimal_control_problem.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/lqr/finite_horizon_lqr_solver.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/lqr/finite_horizon_lqr_solver.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/lqr/finite_horizon_lqr_solver.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/ilqr/ilqr_solver.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/ilqr/ilqr_solver.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/ilqr/ilqr_solver.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/visualization/al_ilqr_log_writer.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/al_ilqr_log_writer.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/al_ilqr_log_writer.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/visualization/obstacle_prediction_writer.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/obstacle_prediction_writer.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/obstacle_prediction_writer.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/my_al_ilqr_core.dir/src/visualization/trajectory_writer.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/trajectory_writer.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/visualization/trajectory_writer.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase1_unicycle_rollout.dir/examples/phase1_unicycle_rollout.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase1_unicycle_rollout.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase1_unicycle_rollout.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase5_constraint_evaluation_demo.dir/examples/phase5_constraint_evaluation_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase5_constraint_evaluation_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase5_constraint_evaluation_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase0_linear_rollout.dir/examples/phase0_linear_rollout.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase0_linear_rollout.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase0_linear_rollout.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase1_bicycle_test.dir/tests/phase1_bicycle_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase1_bicycle_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase1_bicycle_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase11_dynamic_obstacle_demo.dir/examples/phase11_dynamic_obstacle_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase11_dynamic_obstacle_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase11_dynamic_obstacle_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase12_dynamic_obstacle_speed_sweep_demo.dir/examples/phase12_dynamic_obstacle_speed_sweep_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase12_dynamic_obstacle_speed_sweep_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase12_dynamic_obstacle_speed_sweep_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase1_unicycle_test.dir/tests/phase1_unicycle_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase1_unicycle_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase1_unicycle_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_draw.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_draw.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_draw.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_tables.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_tables.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_tables.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/imgui_widgets.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_widgets.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/imgui_widgets.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_glfw.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++   -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include  -g   -std=c++17 -o CMakeFiles/imgui.dir/_deps/imgui-src/backends/imgui_impl_opengl3.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/imgui-src/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase2_lqr_test.dir/tests/phase2_lqr_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase2_lqr_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase2_lqr_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase3_ilqr_test.dir/tests/phase3_ilqr_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase3_ilqr_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase3_ilqr_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase6_augmented_lagrangian_demo.dir/examples/phase6_augmented_lagrangian_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase6_augmented_lagrangian_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase6_augmented_lagrangian_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase4_ilqr_stability_test.dir/tests/phase4_ilqr_stability_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase4_ilqr_stability_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase4_ilqr_stability_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase6_al_cost_test.dir/tests/phase6_al_cost_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase6_al_cost_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase6_al_cost_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase7_al_ilqr_test.dir/tests/phase7_al_ilqr_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase7_al_ilqr_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase7_al_ilqr_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase12_dynamic_obstacle_speed_sweep_test.dir/tests/phase12_dynamic_obstacle_speed_sweep_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase12_dynamic_obstacle_speed_sweep_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase12_dynamic_obstacle_speed_sweep_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase8_autodrive_test.dir/tests/phase8_autodrive_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase8_autodrive_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase8_autodrive_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase9_autodrive_visualization_demo.dir/examples/phase9_autodrive_visualization_demo.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase9_autodrive_visualization_demo.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/examples/phase9_autodrive_visualization_demo.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase9_visualization_export_test.dir/tests/phase9_visualization_export_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase9_visualization_export_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase9_visualization_export_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build",
+  "command": "/usr/bin/c++  -DMY_AL_ILQR_SOURCE_DIR=\\\"/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter\\\" -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/include -isystem /usr/include/eigen3  -g   -std=c++17 -o CMakeFiles/phase10_numerical_enhancement_test.dir/tests/phase10_numerical_enhancement_test.cpp.o -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase10_numerical_enhancement_test.cpp",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/tests/phase10_numerical_enhancement_test.cpp"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/context.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/context.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/context.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/init.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/init.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/init.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/input.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/input.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/input.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/monitor.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/monitor.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/monitor.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/platform.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/platform.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/platform.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/vulkan.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/vulkan.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/vulkan.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/window.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/window.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/window.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/egl_context.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/egl_context.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/egl_context.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/osmesa_context.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/osmesa_context.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/osmesa_context.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/null_init.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_init.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_init.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/null_monitor.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_monitor.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_monitor.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/null_window.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_window.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_window.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/null_joystick.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_joystick.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/null_joystick.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_module.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_module.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_module.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_time.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_time.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_time.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_thread.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_thread.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_thread.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_init.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_init.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_init.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_monitor.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_monitor.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_monitor.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_window.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_window.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/x11_window.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/xkb_unicode.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/xkb_unicode.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/glx_context.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/glx_context.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/glx_context.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/wl_init.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_init.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_init.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/wl_monitor.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_monitor.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_monitor.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/wl_window.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_window.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/wl_window.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/linux_joystick.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/linux_joystick.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/linux_joystick.c"
+},
+{
+  "directory": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src",
+  "command": "/usr/bin/cc -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11 -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/include -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src -I/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-build/src  -g -fPIC   -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_poll.c.o   -c /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_poll.c",
+  "file": "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/_deps/glfw-src/src/posix_poll.c"
+}
+]

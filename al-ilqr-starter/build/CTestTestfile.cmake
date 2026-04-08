@@ -1,0 +1,35 @@
+# CMake generated Testfile for 
+# Source directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter
+# Build directory: /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(phase0_smoke_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase0_smoke_test")
+set_tests_properties(phase0_smoke_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;260;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase1_unicycle_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase1_unicycle_test")
+set_tests_properties(phase1_unicycle_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;271;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase1_bicycle_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase1_bicycle_test")
+set_tests_properties(phase1_bicycle_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;282;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase2_lqr_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase2_lqr_test")
+set_tests_properties(phase2_lqr_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;293;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase3_ilqr_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase3_ilqr_test")
+set_tests_properties(phase3_ilqr_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;304;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase4_ilqr_stability_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase4_ilqr_stability_test")
+set_tests_properties(phase4_ilqr_stability_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;315;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase5_constraints_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase5_constraints_test")
+set_tests_properties(phase5_constraints_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;326;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase6_al_cost_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase6_al_cost_test")
+set_tests_properties(phase6_al_cost_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;337;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase7_al_ilqr_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase7_al_ilqr_test")
+set_tests_properties(phase7_al_ilqr_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;348;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase8_autodrive_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase8_autodrive_test")
+set_tests_properties(phase8_autodrive_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;359;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase9_visualization_export_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase9_visualization_export_test")
+set_tests_properties(phase9_visualization_export_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;370;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase10_numerical_enhancement_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase10_numerical_enhancement_test")
+set_tests_properties(phase10_numerical_enhancement_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;381;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase11_dynamic_obstacle_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase11_dynamic_obstacle_test")
+set_tests_properties(phase11_dynamic_obstacle_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;392;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+add_test(phase12_dynamic_obstacle_speed_sweep_test "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/phase12_dynamic_obstacle_speed_sweep_test")
+set_tests_properties(phase12_dynamic_obstacle_speed_sweep_test PROPERTIES  _BACKTRACE_TRIPLES "/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;403;add_test;/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/CMakeLists.txt;0;")
+subdirs("_deps/glfw-build")

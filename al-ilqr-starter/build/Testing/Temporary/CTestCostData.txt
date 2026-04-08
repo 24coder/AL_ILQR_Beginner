@@ -1,0 +1,15 @@
+phase0_smoke_test 1 0.00259071
+phase1_unicycle_test 1 0.00252903
+phase1_bicycle_test 1 0.00210328
+phase2_lqr_test 1 0.00241453
+phase3_ilqr_test 1 0.00540762
+phase4_ilqr_stability_test 1 0.00407509
+phase5_constraints_test 1 0.00298052
+phase6_al_cost_test 1 0.00243368
+phase7_al_ilqr_test 1 0.00636455
+phase8_autodrive_test 1 0.4215
+phase9_visualization_export_test 1 0.497405
+phase10_numerical_enhancement_test 1 0.483832
+phase11_dynamic_obstacle_test 1 0.122562
+phase12_dynamic_obstacle_speed_sweep_test 1 0.277081
+---
