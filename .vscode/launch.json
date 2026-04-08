@@ -2,34 +2,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug: phase8_autodrive_demo",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_demo",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/al-ilqr-starter",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)"
-        },
-        {
-            "name": "Debug: phase8_autodrive_test",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_test",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}/al-ilqr-starter",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)"
-        },
-        {
             "name": "Debug: phase7_al_ilqr_demo",
             "type": "cppdbg",
             "request": "launch",
@@ -41,7 +13,14 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)"
+            "preLaunchTask": "CMake: Build All (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
         },
         {
             "name": "Debug: phase0_linear_rollout",
@@ -55,7 +34,14 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)"
+            "preLaunchTask": "CMake: Build All (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
         },
         {
             "name": "Debug: phase3_unicycle_ilqr_demo",
@@ -69,7 +55,56 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)"
+            "preLaunchTask": "CMake: Build All (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase8_autodrive_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase8_autodrive_test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "CMake: Build All (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
         }
     ]
 }
