@@ -13,6 +13,84 @@
         "isDefault": true
       },
       "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build phase9_autodrive_visualization_demo debug",
+      "type": "shell",
+      "command": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug && cmake --build build --target phase9_autodrive_visualization_demo -j",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "build phase11_dynamic_obstacle_demo debug",
+      "type": "shell",
+      "command": "cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug && cmake --build build --target phase11_dynamic_obstacle_demo -j",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "plot phase9 autodrive",
+      "type": "shell",
+      "command": "python3 visualization/plot_phase9_autodrive.py build/phase9_autodrive_initial_trajectory.csv build/phase9_autodrive_optimized_trajectory.csv build/phase9_autodrive_outer_log.csv",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "plot phase11 dynamic obstacle",
+      "type": "shell",
+      "command": "python3 visualization/plot_phase11_full.py build/phase11_dynamic_initial_trajectory.csv build/phase11_dynamic_optimized_trajectory.csv build/phase11_dynamic_obstacle_prediction.csv build/phase11_dynamic_outer_log.csv",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "run phase9 autodrive visualization demo",
+      "type": "shell",
+      "command": "${workspaceFolder}/build/phase9_autodrive_visualization_demo",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": [
+        "build phase9_autodrive_visualization_demo debug"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "run phase11 dynamic obstacle demo",
+      "type": "shell",
+      "command": "${workspaceFolder}/build/phase11_dynamic_obstacle_demo",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "dependsOn": [
+        "build phase11_dynamic_obstacle_demo debug"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "simulate and plot phase9 autodrive",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "run phase9 autodrive visualization demo",
+        "plot phase9 autodrive"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "simulate and plot phase11 dynamic obstacle",
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "run phase11 dynamic obstacle demo",
+        "plot phase11 dynamic obstacle"
+      ],
+      "problemMatcher": []
     }
   ]
 }

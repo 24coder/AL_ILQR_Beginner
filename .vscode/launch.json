@@ -18,8 +18,8 @@
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
                 { "text": "set print static-members off" },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
             ]
         },
         {
@@ -39,8 +39,8 @@
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
                 { "text": "set print static-members off" },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
             ]
         },
         {
@@ -60,8 +60,8 @@
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
                 { "text": "set print static-members off" },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
             ]
         },
         {
@@ -81,8 +81,8 @@
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
                 { "text": "set print static-members off" },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
             ]
         },
         {
@@ -102,9 +102,219 @@
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
                 { "text": "set print static-members off" },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/.vscode/eigen_printers.py", "ignoreFailures": true },
-                { "text": "source /home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
             ]
+        },
+        {
+            "name": "Debug: phase9_autodrive_visualization_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase9_autodrive_visualization_demo (stop at entry)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase11_dynamic_obstacle_demo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase11_dynamic_obstacle_demo (stop at entry)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Debug: phase11_dynamic_obstacle_demo (solver focus)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "setupCommands": [
+                { "text": "set print pretty on" },
+                { "text": "set pagination off" },
+                { "text": "set print static-members off" },
+                { "text": "source ${workspaceFolder}/.vscode/eigen_printers.py", "ignoreFailures": true },
+                { "text": "source ${workspaceFolder}/al-ilqr-starter/.gdbinit", "ignoreFailures": true },
+                { "text": "break my_al_ilqr::CreateDynamicObstacleDemoScenario", "ignoreFailures": true },
+                { "text": "break my_al_ilqr::ALILQRSolver::Solve", "ignoreFailures": true },
+                { "text": "break my_al_ilqr::ILQRSolver::Solve", "ignoreFailures": true }
+            ]
+        },
+        {
+            "name": "Run Python: plot_phase9_autodrive.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py",
+            "args": [
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv"
+            ],
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "MPLBACKEND": "Agg"
+            },
+            "preLaunchTask": "Run: phase9_autodrive_visualization_demo"
+        },
+        {
+            "name": "Run Python: plot_phase9_autodrive.py (show window)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py",
+            "args": [
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv"
+            ],
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "preLaunchTask": "Run: phase9_autodrive_visualization_demo"
+        },
+        {
+            "name": "Run Python: plot_phase11_full.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py",
+            "args": [
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv"
+            ],
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "MPLBACKEND": "Agg"
+            },
+            "preLaunchTask": "Run: phase11_dynamic_obstacle_demo"
+        },
+        {
+            "name": "Run Python: plot_phase11_full.py (show window)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py",
+            "args": [
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv",
+                "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv"
+            ],
+            "cwd": "${workspaceFolder}/al-ilqr-starter",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "preLaunchTask": "Run: phase11_dynamic_obstacle_demo"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Phase9: C++ debug then Python plot",
+            "configurations": [
+                "Debug: phase9_autodrive_visualization_demo",
+                "Run Python: plot_phase9_autodrive.py"
+            ],
+            "stopAll": true
+        },
+        {
+            "name": "Phase11: solver debug then Python plot",
+            "configurations": [
+                "Debug: phase11_dynamic_obstacle_demo (solver focus)",
+                "Run Python: plot_phase11_full.py"
+            ],
+            "stopAll": true
+        },
+        {
+            "name": "Phase9: C++ debug then Python show",
+            "configurations": [
+                "Debug: phase9_autodrive_visualization_demo",
+                "Run Python: plot_phase9_autodrive.py (show window)"
+            ],
+            "stopAll": true
+        },
+        {
+            "name": "Phase11: solver debug then Python show",
+            "configurations": [
+                "Debug: phase11_dynamic_obstacle_demo (solver focus)",
+                "Run Python: plot_phase11_full.py (show window)"
+            ],
+            "stopAll": true
         }
     ]
 }

@@ -4,10 +4,9 @@
         {
             "label": "CMake: Build All (Debug)",
             "type": "shell",
-            "command": "make",
-            "args": ["-j4"],
+            "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build -j4",
             "options": {
-                "cwd": "${workspaceFolder}/al-ilqr-starter/build"
+                "cwd": "${workspaceFolder}"
             },
             "group": {
                 "kind": "build",
@@ -18,6 +17,170 @@
                 "panel": "shared"
             },
             "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "type": "shell",
+            "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build --target phase9_autodrive_visualization_demo -j4",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "type": "shell",
+            "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build --target phase11_dynamic_obstacle_demo -j4",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Run: phase9_autodrive_visualization_demo",
+            "type": "shell",
+            "command": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Build: phase9_autodrive_visualization_demo (Debug)"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run: phase11_dynamic_obstacle_demo",
+            "type": "shell",
+            "command": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Build: phase11_dynamic_obstacle_demo (Debug)"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Plot: phase9 autodrive",
+            "type": "shell",
+            "command": "MPLBACKEND=Agg python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Plot: phase11 dynamic obstacle",
+            "type": "shell",
+            "command": "MPLBACKEND=Agg python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Show: phase9 autodrive",
+            "type": "shell",
+            "command": "python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Show: phase11 dynamic obstacle",
+            "type": "shell",
+            "command": "python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv",
+            "options": {
+                "cwd": "${workspaceFolder}/al-ilqr-starter"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Simulate and Plot: phase9 autodrive",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Run: phase9_autodrive_visualization_demo",
+                "Plot: phase9 autodrive"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Simulate and Plot: phase11 dynamic obstacle",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Run: phase11_dynamic_obstacle_demo",
+                "Plot: phase11 dynamic obstacle"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Simulate and Show: phase9 autodrive",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Run: phase9_autodrive_visualization_demo",
+                "Show: phase9 autodrive"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Simulate and Show: phase11 dynamic obstacle",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "Run: phase11_dynamic_obstacle_demo",
+                "Show: phase11 dynamic obstacle"
+            ],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
         }
     ]
 }

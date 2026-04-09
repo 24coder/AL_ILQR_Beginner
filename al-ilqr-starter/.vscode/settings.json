@@ -1,0 +1,19 @@
+{
+  "cmake.configureOnOpen": true,
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.configureSettings": {
+    "CMAKE_BUILD_TYPE": "Debug"
+  },
+  "cmake.debugConfig": {
+    "MIMode": "gdb",
+    "miDebuggerPath": "/usr/bin/gdb"
+  },
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "debug.onTaskErrors": "showErrors",
+  "debug.allowBreakpointsEverywhere": true,
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.autoImportCompletions": true,
+  "terminal.integrated.defaultProfile.linux": "bash"
+}

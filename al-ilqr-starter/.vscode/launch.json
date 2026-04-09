@@ -34,6 +34,246 @@
         }
       ],
       "preLaunchTask": "build phase7_al_ilqr_demo debug"
+    },
+    {
+      "name": "Debug phase9_autodrive_visualization_demo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase9_autodrive_visualization_demo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase9_autodrive_visualization_demo debug"
+    },
+    {
+      "name": "Debug phase9_autodrive_visualization_demo (stop at entry)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase9_autodrive_visualization_demo",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase9_autodrive_visualization_demo debug"
+    },
+    {
+      "name": "Debug phase11_dynamic_obstacle_demo",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase11_dynamic_obstacle_demo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase11_dynamic_obstacle_demo debug"
+    },
+    {
+      "name": "Debug phase11_dynamic_obstacle_demo (stop at entry)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase11_dynamic_obstacle_demo",
+      "args": [],
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase11_dynamic_obstacle_demo debug"
+    },
+    {
+      "name": "Debug phase11_dynamic_obstacle_demo (solver focus)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/phase11_dynamic_obstacle_demo",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "logging": {
+        "engineLogging": false,
+        "trace": false,
+        "traceResponse": false,
+        "programOutput": true,
+        "exceptions": true,
+        "moduleLoad": false
+      },
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Load project gdb pretty printers",
+          "text": "source ${workspaceFolder}/scripts/debug/my_al_ilqr_gdb_printers.py",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Break in ALILQRSolver::Solve",
+          "text": "break my_al_ilqr::ALILQRSolver::Solve",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Break in ILQRSolver::Solve",
+          "text": "break my_al_ilqr::ILQRSolver::Solve",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Break in dynamic scenario factory",
+          "text": "break my_al_ilqr::CreateDynamicObstacleDemoScenario",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "build phase11_dynamic_obstacle_demo debug"
+    },
+    {
+      "name": "Run Python plot_phase9_autodrive.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/visualization/plot_phase9_autodrive.py",
+      "args": [
+        "${workspaceFolder}/build/phase9_autodrive_initial_trajectory.csv",
+        "${workspaceFolder}/build/phase9_autodrive_optimized_trajectory.csv",
+        "${workspaceFolder}/build/phase9_autodrive_outer_log.csv"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "MPLBACKEND": "Agg"
+      },
+      "preLaunchTask": "run phase9 autodrive visualization demo"
+    },
+    {
+      "name": "Run Python plot_phase11_full.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/visualization/plot_phase11_full.py",
+      "args": [
+        "${workspaceFolder}/build/phase11_dynamic_initial_trajectory.csv",
+        "${workspaceFolder}/build/phase11_dynamic_optimized_trajectory.csv",
+        "${workspaceFolder}/build/phase11_dynamic_obstacle_prediction.csv",
+        "${workspaceFolder}/build/phase11_dynamic_outer_log.csv"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "MPLBACKEND": "Agg"
+      },
+      "preLaunchTask": "run phase11 dynamic obstacle demo"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Phase9: C++ debug then Python plot",
+      "configurations": [
+        "Debug phase9_autodrive_visualization_demo",
+        "Run Python plot_phase9_autodrive.py"
+      ],
+      "stopAll": true
+    },
+    {
+      "name": "Phase11: solver debug then Python plot",
+      "configurations": [
+        "Debug phase11_dynamic_obstacle_demo (solver focus)",
+        "Run Python plot_phase11_full.py"
+      ],
+      "stopAll": true
     }
   ]
 }
