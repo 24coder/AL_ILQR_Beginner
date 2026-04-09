@@ -23,6 +23,7 @@ phase11 完整仿真可视化脚本。
 
 import csv
 import math
+import os
 import sys
 from pathlib import Path
 
@@ -107,6 +108,11 @@ def draw_vehicle(ax, x, y, yaw, color="tab:blue", alpha=0.20, zorder=3):
 # ──────────────────────────────────────────────
 def k_to_time(k, dt=0.1):
     return k * dt
+
+
+def should_show_window() -> bool:
+    # 默认允许显示；当显式要求不显示时（如保存版任务），跳过 plt.show()。
+    return os.environ.get("MY_AL_ILQR_NO_SHOW", "0") != "1"
 
 
 # ──────────────────────────────────────────────
@@ -410,7 +416,11 @@ def main():
     output_path = optimized_csv.parent / "phase11_full_visualization.png"
     fig.savefig(output_path, dpi=160, bbox_inches="tight")
     print(f"Saved full visualization to: {output_path}")
-    plt.show()
+
+    if should_show_window():
+        plt.show()
+    else:
+        plt.close(fig)
 
 
 if __name__ == "__main__":

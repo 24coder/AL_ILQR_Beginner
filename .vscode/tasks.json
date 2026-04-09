@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "CMake: Build All (Debug)",
+            "label": "[Build] All demos (Debug)",
             "type": "shell",
             "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build -j4",
             "options": {
@@ -19,7 +19,7 @@
             "problemMatcher": ["$gcc"]
         },
         {
-            "label": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "label": "[Build] phase9_autodrive_visualization_demo (Debug)",
             "type": "shell",
             "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build --target phase9_autodrive_visualization_demo -j4",
             "options": {
@@ -32,7 +32,7 @@
             "problemMatcher": ["$gcc"]
         },
         {
-            "label": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "label": "[Build] phase11_dynamic_obstacle_demo (Debug)",
             "type": "shell",
             "command": "cmake -S ${workspaceFolder}/al-ilqr-starter -B ${workspaceFolder}/al-ilqr-starter/build -DCMAKE_BUILD_TYPE=Debug && cmake --build ${workspaceFolder}/al-ilqr-starter/build --target phase11_dynamic_obstacle_demo -j4",
             "options": {
@@ -45,7 +45,7 @@
             "problemMatcher": ["$gcc"]
         },
         {
-            "label": "Run: phase9_autodrive_visualization_demo",
+            "label": "[Run] phase9_autodrive_visualization_demo",
             "type": "shell",
             "command": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
             "options": {
@@ -53,7 +53,7 @@
             },
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Build: phase9_autodrive_visualization_demo (Debug)"
+                "[Build] phase9_autodrive_visualization_demo (Debug)"
             ],
             "presentation": {
                 "reveal": "always",
@@ -62,7 +62,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Run: phase11_dynamic_obstacle_demo",
+            "label": "[Run] phase11_dynamic_obstacle_demo",
             "type": "shell",
             "command": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
             "options": {
@@ -70,7 +70,7 @@
             },
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Build: phase11_dynamic_obstacle_demo (Debug)"
+                "[Build] phase11_dynamic_obstacle_demo (Debug)"
             ],
             "presentation": {
                 "reveal": "always",
@@ -79,9 +79,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Plot: phase9 autodrive",
+            "label": "[Save PNG] phase9 autodrive",
             "type": "shell",
-            "command": "MPLBACKEND=Agg python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv",
+            "command": "MPLBACKEND=Agg MY_AL_ILQR_NO_SHOW=1 python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv",
             "options": {
                 "cwd": "${workspaceFolder}/al-ilqr-starter"
             },
@@ -92,9 +92,9 @@
             "problemMatcher": []
         },
         {
-            "label": "Plot: phase11 dynamic obstacle",
+            "label": "[Save PNG] phase11 dynamic obstacle",
             "type": "shell",
-            "command": "MPLBACKEND=Agg python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv",
+            "command": "MPLBACKEND=Agg MY_AL_ILQR_NO_SHOW=1 python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv",
             "options": {
                 "cwd": "${workspaceFolder}/al-ilqr-starter"
             },
@@ -105,7 +105,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Show: phase9 autodrive",
+            "label": "[Show Window] phase9 autodrive",
             "type": "shell",
             "command": "python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_outer_log.csv",
             "options": {
@@ -118,7 +118,7 @@
             "problemMatcher": []
         },
         {
-            "label": "Show: phase11 dynamic obstacle",
+            "label": "[Show Window] phase11 dynamic obstacle",
             "type": "shell",
             "command": "python3 ${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_initial_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_optimized_trajectory.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_prediction.csv ${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_outer_log.csv",
             "options": {
@@ -131,11 +131,11 @@
             "problemMatcher": []
         },
         {
-            "label": "Simulate and Plot: phase9 autodrive",
+            "label": "[Simulate + Save PNG] phase9 autodrive",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Run: phase9_autodrive_visualization_demo",
-                "Plot: phase9 autodrive"
+                "[Run] phase9_autodrive_visualization_demo",
+                "[Save PNG] phase9 autodrive"
             ],
             "presentation": {
                 "reveal": "always",
@@ -144,11 +144,11 @@
             "problemMatcher": []
         },
         {
-            "label": "Simulate and Plot: phase11 dynamic obstacle",
+            "label": "[Simulate + Save PNG] phase11 dynamic obstacle",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Run: phase11_dynamic_obstacle_demo",
-                "Plot: phase11 dynamic obstacle"
+                "[Run] phase11_dynamic_obstacle_demo",
+                "[Save PNG] phase11 dynamic obstacle"
             ],
             "presentation": {
                 "reveal": "always",
@@ -157,11 +157,11 @@
             "problemMatcher": []
         },
         {
-            "label": "Simulate and Show: phase9 autodrive",
+            "label": "[Simulate + Show Window] phase9 autodrive",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Run: phase9_autodrive_visualization_demo",
-                "Show: phase9 autodrive"
+                "[Run] phase9_autodrive_visualization_demo",
+                "[Show Window] phase9 autodrive"
             ],
             "presentation": {
                 "reveal": "always",
@@ -170,11 +170,11 @@
             "problemMatcher": []
         },
         {
-            "label": "Simulate and Show: phase11 dynamic obstacle",
+            "label": "[Simulate + Show Window] phase11 dynamic obstacle",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "Run: phase11_dynamic_obstacle_demo",
-                "Show: phase11 dynamic obstacle"
+                "[Run] phase11_dynamic_obstacle_demo",
+                "[Show Window] phase11 dynamic obstacle"
             ],
             "presentation": {
                 "reveal": "always",

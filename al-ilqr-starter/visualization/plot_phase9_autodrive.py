@@ -2,6 +2,7 @@
 
 import csv
 import math
+import os
 import sys
 from pathlib import Path
 
@@ -48,6 +49,11 @@ def draw_vehicle(ax, x, y, yaw, color, alpha=0.18):
         ry = y + sin_yaw * cx + cos_yaw * cy
         rotated.append((rx, ry))
     ax.add_patch(Polygon(rotated, closed=True, facecolor=color, edgecolor=color, alpha=alpha))
+
+
+def should_show_window() -> bool:
+    # 默认允许显示；当显式要求不显示时（如保存版任务），跳过 plt.show()。
+    return os.environ.get("MY_AL_ILQR_NO_SHOW", "0") != "1"
 
 
 def main():
@@ -156,6 +162,11 @@ def main():
     output_path = optimized_csv.with_name("phase9_autodrive_visualization.png")
     fig.savefig(output_path, dpi=160)
     print(f"saved plot to {output_path}")
+
+    if should_show_window():
+        plt.show()
+    else:
+        plt.close(fig)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug: phase7_al_ilqr_demo",
+            "name": "[Debug C++] phase7_al_ilqr_demo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase7_al_ilqr_demo",
@@ -13,7 +13,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)",
+            "preLaunchTask": "[Build] All demos (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "name": "Debug: phase0_linear_rollout",
+            "name": "[Debug C++] phase0_linear_rollout",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase0_linear_rollout",
@@ -34,7 +34,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)",
+            "preLaunchTask": "[Build] All demos (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -44,7 +44,7 @@
             ]
         },
         {
-            "name": "Debug: phase3_unicycle_ilqr_demo",
+            "name": "[Debug C++] phase3_unicycle_ilqr_demo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase3_unicycle_ilqr_demo",
@@ -55,7 +55,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)",
+            "preLaunchTask": "[Build] All demos (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "name": "Debug: phase8_autodrive_demo",
+            "name": "[Debug C++] phase8_autodrive_demo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_demo",
@@ -76,7 +76,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)",
+            "preLaunchTask": "[Build] All demos (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -86,7 +86,7 @@
             ]
         },
         {
-            "name": "Debug: phase8_autodrive_test",
+            "name": "[Debug C++] phase8_autodrive_test",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase8_autodrive_test",
@@ -97,7 +97,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "CMake: Build All (Debug)",
+            "preLaunchTask": "[Build] All demos (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -107,7 +107,7 @@
             ]
         },
         {
-            "name": "Debug: phase9_autodrive_visualization_demo",
+            "name": "[Debug C++] phase9_autodrive_visualization_demo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
@@ -118,7 +118,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "preLaunchTask": "[Build] phase9_autodrive_visualization_demo (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "name": "Debug: phase9_autodrive_visualization_demo (stop at entry)",
+            "name": "[Debug C++] phase9_autodrive_visualization_demo (stop at entry)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase9_autodrive_visualization_demo",
@@ -139,7 +139,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "Build: phase9_autodrive_visualization_demo (Debug)",
+            "preLaunchTask": "[Build] phase9_autodrive_visualization_demo (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -149,7 +149,7 @@
             ]
         },
         {
-            "name": "Debug: phase11_dynamic_obstacle_demo",
+            "name": "[Debug C++] phase11_dynamic_obstacle_demo",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
@@ -160,7 +160,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "preLaunchTask": "[Build] phase11_dynamic_obstacle_demo (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "name": "Debug: phase11_dynamic_obstacle_demo (stop at entry)",
+            "name": "[Debug C++] phase11_dynamic_obstacle_demo (stop at entry)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
@@ -181,7 +181,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "preLaunchTask": "[Build] phase11_dynamic_obstacle_demo (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -191,7 +191,7 @@
             ]
         },
         {
-            "name": "Debug: phase11_dynamic_obstacle_demo (solver focus)",
+            "name": "[Debug C++] phase11_dynamic_obstacle_demo (solver focus)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/build/phase11_dynamic_obstacle_demo",
@@ -202,7 +202,7 @@
             "externalConsole": false,
             "MIMode": "gdb",
             "miDebuggerPath": "/usr/bin/gdb",
-            "preLaunchTask": "Build: phase11_dynamic_obstacle_demo (Debug)",
+            "preLaunchTask": "[Build] phase11_dynamic_obstacle_demo (Debug)",
             "setupCommands": [
                 { "text": "set print pretty on" },
                 { "text": "set pagination off" },
@@ -215,7 +215,7 @@
             ]
         },
         {
-            "name": "Run Python: plot_phase9_autodrive.py",
+            "name": "[Save PNG] phase9 plot",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py",
@@ -228,12 +228,13 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "env": {
-                "MPLBACKEND": "Agg"
+                "MPLBACKEND": "Agg",
+                "MY_AL_ILQR_NO_SHOW": "1"
             },
-            "preLaunchTask": "Run: phase9_autodrive_visualization_demo"
+            "preLaunchTask": "[Run] phase9_autodrive_visualization_demo"
         },
         {
-            "name": "Run Python: plot_phase9_autodrive.py (show window)",
+            "name": "[Show Window] phase9 plot",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase9_autodrive.py",
@@ -245,10 +246,13 @@
             "cwd": "${workspaceFolder}/al-ilqr-starter",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "preLaunchTask": "Run: phase9_autodrive_visualization_demo"
+            "env": {
+                "MY_AL_ILQR_NO_SHOW": "0"
+            },
+            "preLaunchTask": "[Run] phase9_autodrive_visualization_demo"
         },
         {
-            "name": "Run Python: plot_phase11_full.py",
+            "name": "[Save PNG] phase11 plot",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py",
@@ -262,12 +266,13 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "env": {
-                "MPLBACKEND": "Agg"
+                "MPLBACKEND": "Agg",
+                "MY_AL_ILQR_NO_SHOW": "1"
             },
-            "preLaunchTask": "Run: phase11_dynamic_obstacle_demo"
+            "preLaunchTask": "[Run] phase11_dynamic_obstacle_demo"
         },
         {
-            "name": "Run Python: plot_phase11_full.py (show window)",
+            "name": "[Show Window] phase11 plot",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/al-ilqr-starter/visualization/plot_phase11_full.py",
@@ -280,39 +285,42 @@
             "cwd": "${workspaceFolder}/al-ilqr-starter",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "preLaunchTask": "Run: phase11_dynamic_obstacle_demo"
+            "env": {
+                "MY_AL_ILQR_NO_SHOW": "0"
+            },
+            "preLaunchTask": "[Run] phase11_dynamic_obstacle_demo"
         }
     ],
     "compounds": [
         {
-            "name": "Phase9: C++ debug then Python plot",
+            "name": "[Debug + Save PNG] phase9",
             "configurations": [
-                "Debug: phase9_autodrive_visualization_demo",
-                "Run Python: plot_phase9_autodrive.py"
+                "[Debug C++] phase9_autodrive_visualization_demo",
+                "[Save PNG] phase9 plot"
             ],
             "stopAll": true
         },
         {
-            "name": "Phase11: solver debug then Python plot",
+            "name": "[Debug + Save PNG] phase11",
             "configurations": [
-                "Debug: phase11_dynamic_obstacle_demo (solver focus)",
-                "Run Python: plot_phase11_full.py"
+                "[Debug C++] phase11_dynamic_obstacle_demo (solver focus)",
+                "[Save PNG] phase11 plot"
             ],
             "stopAll": true
         },
         {
-            "name": "Phase9: C++ debug then Python show",
+            "name": "[Debug + Show Window] phase9",
             "configurations": [
-                "Debug: phase9_autodrive_visualization_demo",
-                "Run Python: plot_phase9_autodrive.py (show window)"
+                "[Debug C++] phase9_autodrive_visualization_demo",
+                "[Show Window] phase9 plot"
             ],
             "stopAll": true
         },
         {
-            "name": "Phase11: solver debug then Python show",
+            "name": "[Debug + Show Window] phase11",
             "configurations": [
-                "Debug: phase11_dynamic_obstacle_demo (solver focus)",
-                "Run Python: plot_phase11_full.py (show window)"
+                "[Debug C++] phase11_dynamic_obstacle_demo (solver focus)",
+                "[Show Window] phase11 plot"
             ],
             "stopAll": true
         }
