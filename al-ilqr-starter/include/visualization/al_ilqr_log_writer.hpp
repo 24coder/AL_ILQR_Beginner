@@ -18,4 +18,23 @@ namespace my_al_ilqr {
 void WriteALILQROuterLogCsv(const std::filesystem::path& path,
                             const std::vector<ALILQROuterIterationLog>& outer_log);
 
+// 将每个外层 AL 迭代内部的 iLQR 代价历史导出为 CSV。
+//
+// 格式：outer_iter, inner_step, augmented_cost
+// 每条记录对应某一外层迭代中，内层 iLQR 某一被接受的迭代步的增广代价值。
+// inner_step=0 对应初始 rollout 代价，后续每步为接受的优化更新后的代价。
+//
+// 用途：直观验证内层 iLQR 每轮是否真正在减小增广目标函数。
+void WriteALILQRInnerCostHistoryCsv(const std::filesystem::path& path,
+                                    const std::vector<ALILQROuterIterationLog>& outer_log);
+
+// 将每个外层 AL 迭代后的完整轨迹快照导出为 CSV。
+//
+// 格式：k, outer_1_x, outer_1_y, outer_2_x, outer_2_y, ...
+// 每列对应某一外层迭代结束后的轨迹 x/y 坐标，每行为轨迹的一个时间步。
+//
+// 用途：可视化轨迹随 AL 迭代的演化过程，直观看到"绕障轨迹逐步成形"的过程。
+void WriteALILQRTrajectoryEvolutionCsv(const std::filesystem::path& path,
+                                       const std::vector<ALILQROuterIterationLog>& outer_log);
+
 }  // namespace my_al_ilqr

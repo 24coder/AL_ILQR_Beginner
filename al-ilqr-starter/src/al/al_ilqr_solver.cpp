@@ -210,10 +210,6 @@ ALILQRResult ALILQRSolver::Solve(const Vector& initial_state,
     // 用当前控制序列 controls 作为 warm start，求解得到新的轨迹。
     current_trajectory = inner_solver.Solve(initial_state, controls);
 
-    // 打印当前轨迹，通常用于调试：检查状态、控制是否合理。
-    // 这在演示或开发阶段很有用，但在生产环境中可能会比较冗长。
-    current_trajectory.Print();
-
     // 将当前轨迹中的控制提取出来，作为下一轮外层迭代的初值。
     // 这样外层每轮都不是“从头开始”，而是在上一轮结果基础上继续细化。
     controls = ExtractControls(current_trajectory);
@@ -257,6 +253,11 @@ ALILQRResult ALILQRSolver::Solve(const Vector& initial_state,
         best_violation,
         max_penalty,
         false,
+        // 保存内层 iLQR 的 cost/alpha 历史，用于"iLQR 内层收敛曲线"可视化。
+        inner_solver.CostHistory(),
+        inner_solver.AlphaHistory(),
+        // 保存本轮 AL 迭代后的轨迹快照，用于"轨迹演化"可视化。
+        current_trajectory,
     });
 
     // 控制台摘要输出，便于直接观察每轮的代价和可行性变化趋势。
@@ -373,6 +374,7 @@ ALILQRResult ALILQRSolver::Solve(const Vector& initial_state,
   // - returned_violation：返回轨迹的违反量（可能优于 final_violation）
   // - outer_log_：完整外层日志
   return ALILQRResult{returned_trajectory, converged, final_violation, returned_violation, outer_log_};
+  
 }
 
 }  // namespace my_al_ilqr

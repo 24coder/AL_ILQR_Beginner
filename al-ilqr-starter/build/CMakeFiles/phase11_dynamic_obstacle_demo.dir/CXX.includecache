@@ -7,10 +7,14 @@
 #IncludeRegexTransform: 
 
 ../include/al/al_ilqr_solver.hpp
+optional
+-
 vector
 -
 al/augmented_lagrangian_cost.hpp
 ../include/al/al/augmented_lagrangian_cost.hpp
+core/trajectory.hpp
+../include/al/core/trajectory.hpp
 ilqr/ilqr_solver.hpp
 ../include/al/ilqr/ilqr_solver.hpp
 

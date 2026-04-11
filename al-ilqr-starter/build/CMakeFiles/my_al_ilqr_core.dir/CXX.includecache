@@ -7,10 +7,14 @@
 #IncludeRegexTransform: 
 
 ../include/al/al_ilqr_solver.hpp
+optional
+-
 vector
 -
 al/augmented_lagrangian_cost.hpp
 ../include/al/al/augmented_lagrangian_cost.hpp
+core/trajectory.hpp
+../include/al/core/trajectory.hpp
 ilqr/ilqr_solver.hpp
 ../include/al/ilqr/ilqr_solver.hpp
 
@@ -26,6 +30,50 @@ cost/cost_function.hpp
 problems/constrained_optimal_control_problem.hpp
 ../include/al/problems/constrained_optimal_control_problem.hpp
 
+../include/autodrive/circular_obstacle_constraint.hpp
+autodrive/vehicle_bicycle_config.hpp
+../include/autodrive/autodrive/vehicle_bicycle_config.hpp
+constraints/constraint_function.hpp
+../include/autodrive/constraints/constraint_function.hpp
+
+../include/autodrive/demo_scenario.hpp
+memory
+-
+vector
+-
+al/al_ilqr_solver.hpp
+../include/autodrive/al/al_ilqr_solver.hpp
+autodrive/straight_reference_line.hpp
+../include/autodrive/autodrive/straight_reference_line.hpp
+autodrive/vehicle_bicycle_config.hpp
+../include/autodrive/autodrive/vehicle_bicycle_config.hpp
+core/types.hpp
+../include/autodrive/core/types.hpp
+problems/constrained_optimal_control_problem.hpp
+../include/autodrive/problems/constrained_optimal_control_problem.hpp
+problems/optimal_control_problem.hpp
+../include/autodrive/problems/optimal_control_problem.hpp
+
+../include/autodrive/lane_tracking_cost.hpp
+memory
+-
+autodrive/straight_reference_line.hpp
+../include/autodrive/autodrive/straight_reference_line.hpp
+cost/cost_function.hpp
+../include/autodrive/cost/cost_function.hpp
+
+../include/autodrive/speed_limit_constraint.hpp
+constraints/constraint_function.hpp
+../include/autodrive/constraints/constraint_function.hpp
+
+../include/autodrive/straight_reference_line.hpp
+core/types.hpp
+../include/autodrive/core/types.hpp
+
+../include/autodrive/vehicle_bicycle_config.hpp
+filesystem
+-
+
 ../include/constraints/constraint_function.hpp
 memory
 -
@@ -35,6 +83,10 @@ vector
 -
 core/types.hpp
 ../include/constraints/core/types.hpp
+
+../include/constraints/control_box_constraint.hpp
+constraints/constraint_function.hpp
+../include/constraints/constraints/constraint_function.hpp
 
 ../include/core/trajectory.hpp
 iomanip
@@ -57,6 +109,10 @@ core/types.hpp
 ../include/dynamics/dynamics_model.hpp
 core/types.hpp
 ../include/dynamics/core/types.hpp
+
+../include/dynamics/kinematic_bicycle_model.hpp
+dynamics/dynamics_model.hpp
+../include/dynamics/dynamics/dynamics_model.hpp
 
 ../include/ilqr/ilqr_solver.hpp
 vector
@@ -90,13 +146,23 @@ cost/cost_function.hpp
 dynamics/dynamics_model.hpp
 ../include/problems/dynamics/dynamics_model.hpp
 
-/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/al_ilqr_solver.cpp
-al/al_ilqr_solver.hpp
-/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/al/al/al_ilqr_solver.hpp
-stdexcept
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/demo_scenario.cpp
+autodrive/demo_scenario.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/autodrive/demo_scenario.hpp
+memory
 -
-iostream
--
+autodrive/circular_obstacle_constraint.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/autodrive/circular_obstacle_constraint.hpp
+autodrive/lane_tracking_cost.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/autodrive/lane_tracking_cost.hpp
+autodrive/speed_limit_constraint.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/autodrive/speed_limit_constraint.hpp
+autodrive/vehicle_bicycle_config.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/autodrive/vehicle_bicycle_config.hpp
+constraints/control_box_constraint.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/constraints/control_box_constraint.hpp
+dynamics/kinematic_bicycle_model.hpp
+/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/src/autodrive/dynamics/kinematic_bicycle_model.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

@@ -39,4 +39,73 @@ void WriteALILQROuterLogCsv(const std::filesystem::path& path,
   }
 }
 
+void WriteALILQRInnerCostHistoryCsv(const std::filesystem::path& path,
+                                    const std::vector<ALILQROuterIterationLog>& outer_log) {
+  if (!path.parent_path().empty()) {
+    std::filesystem::create_directories(path.parent_path());
+  }
+
+  std::ofstream out(path);
+  if (!out.is_open()) {
+    throw std::runtime_error("Failed to open AL-iLQR inner cost history CSV file for writing.");
+  }
+
+  // 格式：outer_iter, inner_step, augmented_cost
+  // inner_step=0 对应初始 rollout 代价（即第一次 iLQR 迭代前的起点）。
+  // 后续每步为接受的 iLQR 优化更新后的增广代价。
+  out << "outer_iter,inner_step,augmented_cost\n";
+
+  for (const auto& log : outer_log) {
+    for (int step = 0; step < static_cast<int>(log.inner_cost_history.size()); ++step) {
+      out << log.outer_iteration << "," << step << "," << log.inner_cost_history[step] << "\n";
+    }
+  }
+}
+
+void WriteALILQRTrajectoryEvolutionCsv(const std::filesystem::path& path,
+                                       const std::vector<ALILQROuterIterationLog>& outer_log) {
+  if (!path.parent_path().empty()) {
+    std::filesystem::create_directories(path.parent_path());
+  }
+
+  std::ofstream out(path);
+  if (!out.is_open()) {
+    throw std::runtime_error("Failed to open AL-iLQR trajectory evolution CSV file for writing.");
+  }
+
+  // 只取有轨迹快照的日志条目。
+  // 格式：k, outer_1_x, outer_1_y, outer_2_x, outer_2_y, ...
+  // 每列对应某一外层迭代结束后的轨迹 x/y 坐标。
+
+  // 收集有效日志
+  std::vector<const ALILQROuterIterationLog*> valid_logs;
+  for (const auto& log : outer_log) {
+    if (log.trajectory.has_value()) {
+      valid_logs.push_back(&log);
+    }
+  }
+  if (valid_logs.empty()) {
+    return;
+  }
+
+  // 写表头：k, outer_1_x, outer_1_y, ...
+  out << "k";
+  for (const auto* log : valid_logs) {
+    out << ",outer_" << log->outer_iteration << "_x"
+        << ",outer_" << log->outer_iteration << "_y";
+  }
+  out << "\n";
+
+  // 以第一个有效轨迹的 horizon 为基准写行
+  const int horizon = valid_logs[0]->trajectory->Horizon();
+  for (int k = 0; k <= horizon; ++k) {
+    out << k;
+    for (const auto* log : valid_logs) {
+      const auto& traj = *log->trajectory;
+      out << "," << traj.State(k)(0) << "," << traj.State(k)(1);
+    }
+    out << "\n";
+  }
+}
+
 }  // namespace my_al_ilqr

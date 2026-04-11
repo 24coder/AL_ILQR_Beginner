@@ -465,10 +465,6 @@ Trajectory ILQRSolver::Solve(const Vector& initial_state, const std::vector<Vect
   // 使用用户给定的控制初值 rollout 出名义轨迹。
   // 注意：这里不是优化结果，只是第一次迭代的线性化中心。
   Trajectory trajectory = problem_.Rollout(initial_state, initial_controls);
-  #ifndef NDEBUG
-  trajectory.Print();
-  #endif
-  return trajectory;
   cost_history_.push_back(EvaluateTrajectoryCost(trajectory));
 
   // 初始正则化至少不能小于下限。

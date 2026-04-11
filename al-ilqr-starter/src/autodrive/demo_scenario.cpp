@@ -53,7 +53,7 @@ AutodriveDemoScenario CreateScenarioSkeleton(const DynamicObstacleScenarioConfig
                                                  config.terminal_lateral_weight,
                                                  config.terminal_heading_weight,
                                                  config.terminal_speed_weight);
-  scenario.base_problem = std::make_shared<OptimalControlProblem>(dynamics, cost, 55, 0.1);
+  scenario.base_problem = std::make_shared<OptimalControlProblem>(dynamics, cost, 80, 0.1);
   // base_problem 提供动力学和代价；constrained_problem 在此基础上叠加路径约束。
   scenario.constrained_problem =
       std::make_shared<ConstrainedOptimalControlProblem>(scenario.base_problem);
@@ -84,7 +84,10 @@ AutodriveDemoScenario CreateScenarioSkeleton(const DynamicObstacleScenarioConfig
   inner_options.regularization_max = 1e5;
   inner_options.regularization_increase_factor = 10.0;
   inner_options.regularization_decrease_factor = 5.0;
-  inner_options.line_search_max_iterations = 10;
+  inner_options.line_search_max_iterations = 15;
+  inner_options.line_search_decrease_factor = 0.5;
+  inner_options.line_search_accept_lower = 1e-6;
+  inner_options.line_search_accept_upper = 20.0;
 
   // AL 外层参数：约束精度、初始罚因子与增益策略。
   scenario.solver_options.inner_options = inner_options;
@@ -184,11 +187,27 @@ AutodriveDemoScenario CreateSingleStaticObstacleTestScenario(
 
 AutodriveDemoScenario CreateDynamicObstacleDemoScenario() {
   DynamicObstacleScenarioConfig config;
-  config.obstacle_radius = 0.75;
+  // 障碍物从 y=-1.0 出发，以 0.4 m/s 向上运动，在车辆行驶途中穿越参考线。
+  // 这使得初始直行轨迹必然与障碍物碰撞，优化器需要多轮迭代规划绕障路径，
+  // 轨迹演化过程（绕障动作逐步成形）因此更加明显。
+  config.obstacle_center_x = 5.0;
+  config.obstacle_initial_y = -1.0;
+  config.obstacle_speed_y = 0.4;
+  config.obstacle_radius = 0.8;
   config.road_half_width = 2.3;
-  config.stage_lateral_weight = 1.5;
-  config.terminal_lateral_weight = 16.0;
-  config.initial_steering_guess = 0.04;
+  config.stage_lateral_weight = 6.0;
+  config.stage_heading_weight = 1.0;
+  config.stage_speed_weight = 0.5;
+  config.stage_accel_weight = 0.2;
+  config.stage_steering_weight = 0.4;
+  config.terminal_longitudinal_weight = 5.0;
+  config.terminal_lateral_weight = 200.0;
+  config.terminal_heading_weight = 40.0;
+  config.terminal_speed_weight = 8.0;
+  // 初始猜测：直行（零转向），这样初始轨迹穿过障碍，优化前后对比鲜明。
+  config.initial_accel_guess = 0.1;
+  config.accel_guess_steps = 8;
+  config.initial_steering_guess = 0.0;
   return CreateDynamicObstacleDemoScenario(config);
 }
 

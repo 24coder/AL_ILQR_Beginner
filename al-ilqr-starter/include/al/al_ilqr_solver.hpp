@@ -1,8 +1,10 @@
 #pragma once
 
+#include <optional>
 #include <vector>
 
 #include "al/augmented_lagrangian_cost.hpp"
+#include "core/trajectory.hpp"
 #include "ilqr/ilqr_solver.hpp"
 
 namespace my_al_ilqr {
@@ -21,7 +23,7 @@ struct ALILQROptions {
   bool return_best_trajectory = true;
 };
 
-// 外层每轮迭代日志，便于分析“可行性收敛”和“罚参数演化”。
+// 外层每轮迭代日志，便于分析”可行性收敛”和”罚参数演化”。
 struct ALILQROuterIterationLog {
   int outer_iteration = 0;
   int inner_iterations = 0;
@@ -31,6 +33,14 @@ struct ALILQROuterIterationLog {
   double best_violation_so_far = 0.0;
   double max_penalty = 0.0;
   bool penalty_updated = false;
+  // 内层 iLQR 每个被接受的迭代的增广代价（包含初始 rollout 代价）。
+  // 可用于绘制”内层优化收敛曲线”，验证每轮 AL 子问题的 iLQR 收敛情况。
+  std::vector<double> inner_cost_history;
+  // 内层 iLQR 每个被接受的迭代所使用的线搜索步长 alpha。
+  std::vector<double> inner_alpha_history;
+  // 该外层迭代内层 iLQR 求解完毕后的完整轨迹快照。
+  // 可用于绘制”轨迹随 AL 迭代演化”的动态过程。
+  std::optional<Trajectory> trajectory;
 };
 
 // AL-iLQR 求解结果。
