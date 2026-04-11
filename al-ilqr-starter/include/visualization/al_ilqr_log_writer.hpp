@@ -37,4 +37,15 @@ void WriteALILQRInnerCostHistoryCsv(const std::filesystem::path& path,
 void WriteALILQRTrajectoryEvolutionCsv(const std::filesystem::path& path,
                                        const std::vector<ALILQROuterIterationLog>& outer_log);
 
+// 将与轨迹快照一一对应的外层迭代元数据导出为 CSV。
+//
+// 格式：outer_iteration, inner_iterations, base_cost, augmented_cost,
+//      max_violation, best_violation_so_far, max_penalty, penalty_updated
+//
+// 仅导出带 trajectory 快照的外层迭代，保证与 trajectory evolution CSV 中的每一帧严格对齐。
+// 用途：供 matplotlib / pandas 等脚本直接给每帧动画添加标题、说明文字与收敛指标。
+void WriteALILQRTrajectoryEvolutionMetaCsv(
+    const std::filesystem::path& path,
+    const std::vector<ALILQROuterIterationLog>& outer_log);
+
 }  // namespace my_al_ilqr

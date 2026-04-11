@@ -1,0 +1,2 @@
+outer_iteration,inner_iterations,base_cost,augmented_cost,max_violation,best_violation_so_far,max_penalty,penalty_updated
+1,5,45.8061,45.8093,0.0115985,0,15,0

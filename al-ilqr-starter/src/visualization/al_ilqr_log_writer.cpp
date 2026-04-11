@@ -3,8 +3,25 @@
 #include <filesystem>
 #include <fstream>
 #include <stdexcept>
+#include <vector>
 
 namespace my_al_ilqr {
+
+namespace {
+
+std::vector<const ALILQROuterIterationLog*> CollectLogsWithTrajectory(
+    const std::vector<ALILQROuterIterationLog>& outer_log) {
+  std::vector<const ALILQROuterIterationLog*> valid_logs;
+  valid_logs.reserve(outer_log.size());
+  for (const auto& log : outer_log) {
+    if (log.trajectory.has_value()) {
+      valid_logs.push_back(&log);
+    }
+  }
+  return valid_logs;
+}
+
+}  // namespace
 
 void WriteALILQROuterLogCsv(const std::filesystem::path& path,
                             const std::vector<ALILQROuterIterationLog>& outer_log) {
@@ -76,14 +93,7 @@ void WriteALILQRTrajectoryEvolutionCsv(const std::filesystem::path& path,
   // 只取有轨迹快照的日志条目。
   // 格式：k, outer_1_x, outer_1_y, outer_2_x, outer_2_y, ...
   // 每列对应某一外层迭代结束后的轨迹 x/y 坐标。
-
-  // 收集有效日志
-  std::vector<const ALILQROuterIterationLog*> valid_logs;
-  for (const auto& log : outer_log) {
-    if (log.trajectory.has_value()) {
-      valid_logs.push_back(&log);
-    }
-  }
+  const auto valid_logs = CollectLogsWithTrajectory(outer_log);
   if (valid_logs.empty()) {
     return;
   }
@@ -105,6 +115,32 @@ void WriteALILQRTrajectoryEvolutionCsv(const std::filesystem::path& path,
       out << "," << traj.State(k)(0) << "," << traj.State(k)(1);
     }
     out << "\n";
+  }
+}
+
+void WriteALILQRTrajectoryEvolutionMetaCsv(
+    const std::filesystem::path& path,
+    const std::vector<ALILQROuterIterationLog>& outer_log) {
+  if (!path.parent_path().empty()) {
+    std::filesystem::create_directories(path.parent_path());
+  }
+
+  std::ofstream out(path);
+  if (!out.is_open()) {
+    throw std::runtime_error(
+        "Failed to open AL-iLQR trajectory evolution meta CSV file for writing.");
+  }
+
+  // 仅导出带轨迹快照的外层迭代，使其与 trajectory evolution CSV 中的帧一一对应。
+  out << "outer_iteration,inner_iterations,base_cost,augmented_cost,max_violation,"
+         "best_violation_so_far,max_penalty,penalty_updated\n";
+
+  const auto valid_logs = CollectLogsWithTrajectory(outer_log);
+  for (const auto* log : valid_logs) {
+    out << log->outer_iteration << "," << log->inner_iterations << "," << log->base_cost << ","
+        << log->augmented_cost << "," << log->max_violation << ","
+        << log->best_violation_so_far << "," << log->max_penalty << ","
+        << (log->penalty_updated ? 1 : 0) << "\n";
   }
 }
 

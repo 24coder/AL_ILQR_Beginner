@@ -224,9 +224,9 @@ CMakeFiles/phase8_autodrive_demo.dir/clean:
 # Target rules for target CMakeFiles/imgui_frontend.dir
 
 # All Build rule for target.
+CMakeFiles/imgui_frontend.dir/all: CMakeFiles/imgui.dir/all
 CMakeFiles/imgui_frontend.dir/all: CMakeFiles/my_al_ilqr_core.dir/all
 CMakeFiles/imgui_frontend.dir/all: _deps/glfw-build/src/CMakeFiles/glfw.dir/all
-CMakeFiles/imgui_frontend.dir/all: CMakeFiles/imgui.dir/all
 	$(MAKE) -f CMakeFiles/imgui_frontend.dir/build.make CMakeFiles/imgui_frontend.dir/depend
 	$(MAKE) -f CMakeFiles/imgui_frontend.dir/build.make CMakeFiles/imgui_frontend.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mini/Desktop/PrivateFiles/Al_ILQR_Starter/al-ilqr-starter/build/CMakeFiles --progress-num=39,40 "Built target imgui_frontend"
